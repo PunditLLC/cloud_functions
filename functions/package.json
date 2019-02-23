@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "algoliasearch": "^3.32.0",
+    "aylien-news-api": "^2.0.2",
+    "firebase-admin": "^6.5.1",
+    "firebase-functions": "^2.0.5"
+  },
+  "private": true
+}

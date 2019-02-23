@@ -1,0 +1,6 @@
+cron:
+- description: Update top political trends
+  url: /publish/update_top_trends
+  schedule: every 12 hours
+
+

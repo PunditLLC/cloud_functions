@@ -1,0 +1,32 @@
+[debug] [2019-02-23T19:05:25.858Z] ----------------------------------------------------------------------
+[debug] [2019-02-23T19:05:25.861Z] Command:       /usr/local/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2019-02-23T19:05:25.861Z] CLI Version:   6.3.1
+[debug] [2019-02-23T19:05:25.861Z] Platform:      darwin
+[debug] [2019-02-23T19:05:25.861Z] Node Version:  v10.15.1
+[debug] [2019-02-23T19:05:25.905Z] Time:          Sat Feb 23 2019 11:05:25 GMT-0800 (Pacific Standard Time)
+[debug] [2019-02-23T19:05:25.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-23T19:05:25.928Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-23T19:05:25.928Z] > authorizing via signed-in user
+[debug] [2019-02-23T19:05:25.928Z] [iam] checking project test-2a65d for permissions ["firebase.projects.get"]
+[debug] [2019-02-23T19:05:25.932Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-23T19:05:25.932Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-23T19:05:26.397Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T19:05:26.411Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-2a65d:testIamPermissions  
+
+[debug] [2019-02-23T19:05:26.839Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-23T19:05:27.863Z] Fetching environment
+[debug] [2019-02-23T19:05:27.867Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-2a65d  
+ 
+[debug] [2019-02-23T19:05:28.376Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T19:05:28.379Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/483723362972:getServerAppConfig  
+ 
+[debug] [2019-02-23T19:05:28.667Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T19:05:28.668Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-23T19:05:30.228Z] Parsing function triggers
+[debug] [2019-02-23T19:05:31.005Z] Deploying functions locally
+[debug] [2019-02-23T19:05:31.010Z] Deploying functions locally
+[info] ✔  functions: createUser
+[info] ✔  functions: update_top_trends
